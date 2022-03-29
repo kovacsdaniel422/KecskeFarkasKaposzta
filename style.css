@@ -2,6 +2,7 @@ main {display: grid; grid-template-areas: "h h h h" "bal ar ar jobb" "f f f f"; 
 #bal {grid-area: bal; border: 1px solid black; max-width: 200px; height: 600px;} 
 #jobb {grid-area: jobb; border: 1px solid black; max-width: 200px; height: 600px;}
 article {grid-area: ar; border: 1px solid black; background-color: aqua;}
+article img {margin: auto;}
 footer {grid-area: f; border: 1px solid black;}
 header {grid-area: h; border: 1px solid black;}
 header h1 {text-align: center;}
