@@ -50,7 +50,7 @@ function galeria(){
 function kepkivalsztas(){
     console.log(event.target.id);
     kepindex= event.target.id;
-    megjelenit();
+    megjelenit(); 
 }
 function init() {
     megjelenit();
